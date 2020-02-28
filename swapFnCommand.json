@@ -1,0 +1,28 @@
+{
+  "title": "FN/CMD Key Swap",
+  "rules": [
+    {
+      "description": "swap function and command",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "fn"
+          },
+          "to": {
+            "key_code": "left_command"
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_command"
+          },
+          "to": {
+            "key_code": "fn"
+          }
+        }
+      ]
+    }
+  ]
+}
